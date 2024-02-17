@@ -1,0 +1,129 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins' ;
+  box-sizing: border-box;
+}
+header{
+display:flex;
+justify-content:space-between;
+align-items: center;
+height:80px;
+background-color: #ffff;
+border-bottom: 2px solid #f8f8f6;
+ 
+}
+
+.Myntra-Home{
+  width: 53px;
+}
+
+.logo-container{
+  margin-left: 6px ;
+}
+
+.Nav-Bar{
+  min-width: 500px ;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Nav-Bar a{
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-family: 700px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 32px 0;
+  border-bottom: 5px  #ffffff
+
+}
+.Nav-Bar a:hover{
+  border-bottom: 4px solid #ff3f6c 
+}
+
+.Nav-Bar a sup{
+  color: #ff3f6c;
+  font-size: 10px;
+  font-weight: 700;
+}
+.Search-Bar{
+  height: 40px;
+  width: 300px;
+  min-width:  30%;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f6;
+}
+#Search-Icon{
+height: 20px;
+padding: 10px;
+box-sizing: content-box;
+align-items: center;
+border-radius: 4px;
+}
+.Search-Input{
+  background-color: #f5f5f6;
+  color: #696e79;
+  flex-grow: 1;
+  color: #696e79;
+  border: 0;
+}
+
+.Action-Bar{
+  margin-right: 10px;
+}
+.Banner-container{
+  margin: 40px 0;
+
+}
+
+.Banner-img{
+  width: 100%;
+}
+.Category-heading{
+  text-transform: uppercase;
+  color: #3e4252;
+  letter-spacing: .15em;
+  margin: 50px 0 10px 30px;
+  max-height: 5rem;
+  font-weight: 700;
+}
+
+.Category-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.Sale-items{
+  width: 250px;
+}
+
+.Footer-container{
+  padding: 30px 0 40px 0;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer-column{
+  display: flex;
+  flex-direction: column;
+}
+.Footer-column a{
+  font-size: 14px;
+  color: #696e79;
+  text-decoration: none;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.Footer-container h3{
+  font-size: 25px;
+  color: #282c3f;
+  margin-bottom: 15px;
+}
+.Copy-right{
+  color: #94969f;
+  text-align: center;
+  padding: 15px;
+}
